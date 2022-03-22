@@ -17,5 +17,5 @@ Comparasion files contain cross-validation results compressed in one table
 ###### *fine_tuned_bert* 
 ###### *dataset_balancing* : code for task1_dataset creation and balancing  
 ###### *preprocess* : preprocessing module for textual data 
-###### *model_comparison* : preprocessing module for textual data 
+###### *model_comparison* : model comparison file containing all results for cross validation
 
