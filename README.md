@@ -1,4 +1,5 @@
-# pfe
+# Persuasion Detection in Informational ads on Facebook 
+
 This repository contain data sources and code files for our final year project titled "Measuring Risks with AI-based Targted Advertising"
 
 ## This project is devised into two main tasks : 
@@ -14,5 +15,5 @@ We conduct a set of experiments with different classification models to identify
 Link for classifier-1  : 
 Link for classifier-2 : 
 
-**All the data that was used for training and validation of the classifiers is available in this repository. Data used for classifier-1 is hand-annotated, while training data for classifier-2 is annotated by word filters. However, samples used for validation for classifier-2 are hand-annotated**
+**All the data that was used for training and validation is available in this repository. Data used for classifier-1 is hand-annotated, while training data for classifier-2 is annotated by word filters. However, samples used for validation for classifier-2 are hand-annotated**
  
