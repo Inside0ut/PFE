@@ -1,7 +1,7 @@
 # Datasets 
 
 ### AdAnalyst Dataset 
-We use 250k database of advertisements collected by AdAnalyst tool (https://adanalyst.mpi-sws.org/). We use a trained naive bayes model and only choose informational ads (advertisements that contain non-commercial content).
+We use a database of 250k advertisements collected by AdAnalyst tool (https://adanalyst.mpi-sws.org/). We use a trained naive bayes model and only choose informational ads (advertisements that contain non-commercial content).
 
 ### Counterpublics 
 We use the counterpublics database for facebook advertisements (https://counterpublics.mur.at/archive/) and select advertisements under the following topics: COVID-19, environement Crisis, political ads.
