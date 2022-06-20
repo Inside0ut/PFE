@@ -2,7 +2,7 @@
 from re import sub 
 from nltk.tokenize.toktok import ToktokTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
-
+import textblob as tb
 from bs4 import BeautifulSoup
 
 import nltk
@@ -11,6 +11,9 @@ nltk.download('stopwords')
 #Importing wordnet 
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 #Setting English stopwords
 stopword_list=nltk.corpus.stopwords.words('english')
@@ -64,4 +67,17 @@ def remove_stopwords(text, is_lower_case=False):
     filtered_text = ' '.join(filtered_tokens)    
     return filtered_text
 
+
+
+# removing adjevtives 
+def get_adjectives(text):
+    blob = tb.TextBlob(text)
+    result = [ word for (word,tag) in blob.tags if tag == "JJ"]
+    return result 
+
+def remove_adjectives(text):
+    list_adjectives = get_adjectives(text) 
+    for a in list_adjectives :
+      text = text.replace(a, '')
+    return text
 
