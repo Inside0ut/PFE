@@ -2,7 +2,7 @@
 
 This repository contains data sources and code files for our final year project titled "Measuring Risks with AI-based Targeted Advertising"
 
-## This project is devised into two main tasks : 
+## Classifiers : 
 
 ### **Task 1**  (classifier-1)
 We conduct a set of experiments with different classification models and identify the best one for classifying an advertisement as *commercial* or *informational*. 
@@ -15,5 +15,6 @@ We conduct a set of experiments with different classification models to identify
 #### Link for classifier-1 :  https://share.streamlit.io/nardjes-am/inf_vs_com_model/app.py
 #### Link for classifier-2 : 
 
-**All the data that was used for training and validation is available in this repository. Data used for classifier-1 is hand-annotated, while training data for classifier-2 is annotated by word filters. However, samples used for validation for classifier-2 are hand-annotated**
+## Datasets : 
+All the data that was used for training and validation is available in this repository. Data used for classifier-1 is hand-annotated, while training data for classifier-2 is annotated by word filters. However, samples used for validation for classifier-2 are hand-annotated**
  
