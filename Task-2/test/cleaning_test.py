@@ -1,6 +1,4 @@
 import unittest2
-import sys 
-sys.path.append('./data/')
 import cleaner 
 
 
